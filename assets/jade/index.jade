@@ -43,41 +43,45 @@ html(lang="en")
 					.hexagono
 						.img-content
 							.bg-img
-				.title
-					h2.text-center Future Imperfect
-					p.text-center Another fine responsive site template by Html5 Up
+					.title
+						h2.text-center.big-text Future Imperfect
+						p.text-center Another fine responsive site template by 
+							span.underline Html5 Up
 				.article
-				.second-top
-					.row
-						.col-xs-8.col-sm-9.col-md-9.col-lg-9
-							h3 Magna Sed Adipiscing
-							p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-						.col-xs-4.col-sm-3.col-md-3.col-lg-3
-							h5 November 1, 2015
-							span.underline Jane doe
-							img(src="images/avatar.jpg", alt="JANE DOE")
-				.second-bottom
-					img(src="images/pic01.jpg", alt="")
-					p Mauris neque quam,  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quasi molestias soluta ipsam est harum aut suscipit porro, at voluptatem. Illo, exercitationem, dolorem? Eum eaque, vitae tempora eos, non, vel fugiat nam impedit tenetur sint officia molestias facere ea ut laboriosam, consequuntur. Tempora maxime deserunt laboriosam dignissimos ratione voluptatibus facilis.
-				.read
-					a(href="#").pull-left continue reading
-					.pull-right.likes
-						ul
-							li
-								a(href="#").underline General
-							li
-								a(href="#")
-									i.fa.fa-heart
-									span 28
-							li
-								a(href="#")
-									i.fa.fa-comment
-									span 128
-				a(href="#").boton-inactivo
-					i.fa.fa-angle-left
-					span Previous Page
-				a(href="#").boton-activo
-					span Next Page
-					i.fa.fa-angle-right
+					.second-top
+						.row
+							.col-xs-8.col-sm-9.col-md-9.col-lg-9
+								.sec-top-left
+									h3.big-text.resp Magna Sed Adipiscing
+									p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							.col-xs-4.col-sm-3.col-md-3.col-lg-3
+								.sec-top-right.pull-right
+									h5(title="Ver todas las publicaciones del 1ero de Noviembre del 2015") November 1, 2015
+									span.underline(title="Jane Doe. Click para saber más sobre ella") Jane doe
+									img(src="images/avatar.jpg", alt="JANE DOE")
+					.second-bottom
+						img(src="images/pic01.jpg", alt="Jane Doe picture" class="w-100")
+						p Mauris neque quam,  lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quasi molestias soluta ipsam est harum aut suscipit porro, at voluptatem. Illo, exercitationem, dolorem. Eum eaque, vitae tempora eos, non, vel fugiat nam impedit tenetur sint officia molestias facere ea ut laboriosam, consequuntur. Tempora maxime deserunt laboriosam dignissimos ratione voluptatibus facilis.
+						.read
+							a(href="#" title="Continuar leyendo").pull-left.botones continue reading
+							.pull-right.likes
+								ul
+									li
+										a(href="#" title="General").underline General
+									li
+										a(href="#")
+											i.fa.fa-heart
+											span(title="28 Likes") 28
+									li
+										a(href="#")
+											i.fa.fa-comment
+											span(title="128 Comments") 128
+				.seccion-botones
+					a(href="#").boton-inactivo.botones
+						i.fa.fa-angle-left
+						span Previous Page
+					a(href="#").botones
+						span Next Page
+						i.fa.fa-angle-right
 		script(src="https://code.jquery.com/jquery-1.10.2.min.js")
 		script(type="text/javascript" src="assets/js/bootstrap.min.js")
